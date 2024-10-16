@@ -16,3 +16,4 @@ while (dice === 6 ){
     console.log(`i get 6 in dice  ${dice}` )
     dice ++
 }
+ // A real bug which was causing error in harverd computer in 1940 from there we use name of bug
