@@ -12,5 +12,6 @@ const output =newName();
 console.log(output)
 const output2 =output.split(0,1).map((item)=>{
     return item
+
 })
 console.log(output2)
