@@ -12,6 +12,12 @@ const output = array.filter((item)=>{
 // console.log(output)
 const newArray1 = [1,2,3,4,5,6,7,8,9,10]
 const output1 = newArray1.filter((item)=>{
-    return item % 2
+    if (item % 2){
+        return true
+    }else{
+        return false
+
+    }
+
 })
 console.log(output1)
