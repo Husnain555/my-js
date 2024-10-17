@@ -13,3 +13,4 @@ const obj = {
 }
 console.log(obj.fullName.call(name1));
 
+// call method store value in new veriable but apply only store for once
