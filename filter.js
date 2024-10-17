@@ -14,10 +14,8 @@ const newArray1 = [1,2,3,4,5,6,7,8,9,10]
 const output1 = newArray1.filter((item)=>{
     if (item % 2){
         return true
-    }else{
-        return false
-
     }
 
-})
+}).map((x)=> x * 2).sort((a,b)=> a+b)
+
 console.log(output1)
