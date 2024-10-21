@@ -16,3 +16,6 @@ console.log(one,two)
 // two = undifine
 // after this the origninal valus added except function
 // because where new function is exicute there new execution contest created
+// so question here what is call stack ?
+//     call stack is just like a tube where all the code was executed in a syncorus manners
+// means line by line in stack we stack works with a simple manners like "LIFO" means last in first out
